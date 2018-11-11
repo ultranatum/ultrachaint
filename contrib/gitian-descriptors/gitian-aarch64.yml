@@ -1,5 +1,5 @@
 ---
-name: "ultrachaint-aarch64-3.1"
+name: "ultrachaint-aarch64-1.0.0"
 enable_cache: true
 suites:
 - "xenial"
