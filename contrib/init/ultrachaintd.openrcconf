@@ -1,0 +1,26 @@
+# /etc/conf.d/ultrachaintd: config file for /etc/init.d/ultrachaintd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/ultrachaint/ultrachaint.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ultrachaintd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ultrachaintd.pid"
+
+# Where to write ultrachaintd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ultrachaintd"
+
+# User and group to own ultrachaintd process
+#BITCOIND_USER="ultrachaint"
+#BITCOIND_GROUP="ultrachaint"
+
+# Path to ultrachaintd executable
+#BITCOIND_BIN="/usr/bin/ultrachaintd"
+
+# Nice value to run ultrachaintd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

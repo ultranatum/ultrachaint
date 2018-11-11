@@ -1,0 +1,6 @@
+usr/local/bin/ultrachaint-qt usr/bin
+share/pixmaps/bitcoin32.xpm usr/share/pixmaps
+share/pixmaps/bitcoin16.xpm usr/share/pixmaps
+share/pixmaps/bitcoin128.png usr/share/pixmaps
+debian/ultrachaint-qt.desktop usr/share/applications
+debian/ultrachaint-qt.protocol usr/share/kde4/services/

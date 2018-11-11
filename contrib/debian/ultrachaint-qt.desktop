@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ultrachaint
+Comment=Ultrachaint P2P Cryptocurrency
+Comment[fr]=Ultrachaint, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ultrachaint, eşten eşe kriptografik sanal para birimi
+Exec=ultrachaint-qt %u
+Terminal=false
+Type=Application
+Icon=ultrachaint128
+MimeType=x-scheme-handler/ultrachaint;
+Categories=Office;Finance;
