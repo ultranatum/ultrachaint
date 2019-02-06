@@ -196,7 +196,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "04dbfdb4467d2dbe4a1103881d2e1e81bb4f1764bb08354506e0daaf904011376e5640150665a3fa308b9c8bd983049413c43dff2b33cad6391f11f24fc0aa048b";
+        strSporkKey = "04132D9E0E9DFBF33A590A0D2B901C8D5E5B02E134253BD4EE3DD8131E0482F32C74178F3EB862EE1BE9CC8DD9579A6A6C5EF4AA114B50CEE78510FC0B0D82F142";
         strSporkKeyOld = "04dbfdb4467d2dbe4a1103881d2e1e81bb4f1764bb08354506e0daaf904011376e5640150665a3fa308b9c8bd983049413c43dff2b33cad6391f11f24fc0aa048b";
         strObfuscationPoolDummyAddress = "uQ8KvtRR3ubGKzgHc3Ue1vmWDYKdCjwZMM";
         nStartMasternodePayments = 1540897200; // 10/30/2018 @ 11:00am (UTC)
@@ -262,8 +262,8 @@ public:
         nBlockEnforceInvalidUTXO = 9902850; //Start enforcing the invalid UTXO's
         nInvalidAmountFiltered = 0; //Amount of invalid coins filtered through exchanges, that should be considered valid
         nBlockZerocoinV2 = 999999999; //!> The block that zerocoin v2 becomes active
-        nEnforceNewSporkKey = 1521604800; //!> Sporks signed after Wednesday, March 21, 2018 4:00:00 AM GMT must use the new spork key
-        nRejectOldSporkKey = 1522454400; //!> Reject old spork key after Saturday, March 31, 2018 12:00:00 AM GMT
+        nEnforceNewSporkKey = 1549449800; //!> Sporks signed after Wednesday, March 21, 2018 4:00:00 AM GMT must use the new spork key
+        nRejectOldSporkKey = 1549951200; //!> Reject old spork key after Saturday, March 31, 2018 12:00:00 AM GMT
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1540288801;
@@ -295,7 +295,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         nPoolMaxTransactions = 2;
-        strSporkKey = "04be8b0fc23d90a03a79cddc5bfd11694b9c35d3fe2aa65816bf236e6d6a4b45921a6d1dca28439ac6d2e197fb5cafb7169b7d33a7a7704c688ba616b70874c5a4";
+        strSporkKey = "04132D9E0E9DFBF33A590A0D2B901C8D5E5B02E134253BD4EE3DD8131E0482F32C74178F3EB862EE1BE9CC8DD9579A6A6C5EF4AA114B50CEE78510FC0B0D82F142";
         strSporkKeyOld = "04be8b0fc23d90a03a79cddc5bfd11694b9c35d3fe2aa65816bf236e6d6a4b45921a6d1dca28439ac6d2e197fb5cafb7169b7d33a7a7704c688ba616b70874c5a4";
         strObfuscationPoolDummyAddress = "y57cqfGRkekRyDRNeJiLtYVEbvhXrNbmox";
         nStartMasternodePayments = 1540288801; //Fri, 09 Jan 2015 21:05:58 GMT
