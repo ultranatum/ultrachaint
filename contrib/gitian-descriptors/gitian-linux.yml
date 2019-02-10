@@ -1,5 +1,5 @@
 ---
-name: "ultrachaint-linux-1.0.0.3"
+name: "ultrachaint-linux-1.0.0.4"
 enable_cache: true
 suites:
 - "trusty"

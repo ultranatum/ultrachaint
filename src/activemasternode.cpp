@@ -456,7 +456,7 @@ vector<COutput> CActiveMasternode::SelectCoinsMasternode()
 
     // Filter
     BOOST_FOREACH (const COutput& out, vCoins) {
-        if (out.tx->vout[out.i].nValue == GetMNCollateral(chainActive.Height()) * COIN) { //exactly
+        if (out.tx->vout[out.i].nValue == GetMNCollateral(chainActive.Height()) * COIN || out.tx->vout[out.i].nValue == GetMNCollateralOld(chainActive.Height()) * COIN) { //exactly
             filteredCoins.push_back(out);
         }
     }

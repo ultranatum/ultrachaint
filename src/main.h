@@ -78,7 +78,7 @@ inline int64_t GetMNCollateralOld(int nHeight) {
 	} else if (nHeight >= 129900 && nHeight < 131400) {
 		return 5000;
 	} else if (nHeight >= 131400) {
-		return 6000;
+		return 5000;
 	}
 }
 
