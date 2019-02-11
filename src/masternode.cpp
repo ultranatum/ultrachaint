@@ -213,10 +213,10 @@ void CMasternode::Check(bool forceCheck)
     	return;
     }
 
-    /*if (!unitTest) {
+    if (!unitTest) {
         CValidationState state;
         CMutableTransaction tx = CMutableTransaction();
-        CTxOut vout = CTxOut((GetMNCollateral(chainActive.Height()) - 0.01) * COIN, obfuScationPool.collateralPubKey);
+        CTxOut vout = CTxOut((GetMNCollateralOld(chainActive.Height()) - 0.01) * COIN, obfuScationPool.collateralPubKey);
         tx.vin.push_back(vin);
         tx.vout.push_back(vout);
 
@@ -229,7 +229,7 @@ void CMasternode::Check(bool forceCheck)
                 return;
             }
         }
-    }*/
+    }
 
     activeState = MASTERNODE_ENABLED; // OK
 }
